@@ -8,11 +8,11 @@ func main() {
 	colors := map[string]string{
 		"red" : "#ff0000",
 		"green" : "#4bf754",
-		"white" : "#ffffff"
+		"white" : "#ffffff",
 	}
 
 	colors["white"] = "#ffffff"
-	delete(colors,10) //delete key "10" and its value 
+	// delete(colors,10) //delete key "10" and its value 
 
 	printMap(colors)
 }
